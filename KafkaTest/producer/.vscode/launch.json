@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "name": "C#: producer",
+            "type": "dotnet",
+            "request": "launch",
+            "projectPath": "${workspaceFolder}\\producer.csproj",
+            "launchConfigurationId": "TargetFramework=;producer"
+        }
+    ]
+}
