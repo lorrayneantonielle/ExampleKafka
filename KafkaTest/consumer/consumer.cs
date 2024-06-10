@@ -20,7 +20,7 @@ class Consumer
         configuration["group.id"] = "kafka-dotnet-getting-started";
         configuration["auto.offset.reset"] = "earliest";
 
-        const string topic = "test-topic-envio-indicacao";
+        const string topic = "test-topic-envio";
 
         CancellationTokenSource cts = new CancellationTokenSource();
         Console.CancelKeyPress += (_, e) =>
